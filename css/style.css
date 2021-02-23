@@ -1,1 +1,46 @@
+body {
+	 margin: 0px;
+	 background: black;
+	 color: white;
+	 font-family: 'Cormorant Garamond', monospace;
+	 font-weight: 200; 
+}/*stylesheet*/
+h1, h2, h3, h4, p {
+	 margin-top: 0
+	 margin-bottom: 1em; 
+}
+h1, h2 {
+	font-weight: 200;
+}
+
+#wrapper {
+	margin: 2em auto;
+	max-width: 1200px;
+}
+
+#main {
+	background: pink;
+	margin: 2em;
+	padding: 2em;
+}
+
+#sidebar {
+	background: green;
+}
+
+#content {
+	background: green;
+}
+
+@media (min-width: 699px) {
+	#wrapper {
+		margin: 0em auto;
+	}
+	#main {
+		margin: 1em;
+		padding: 0em;
+	}
+}
+
+
 /*stylesheet*/

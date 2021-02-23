@@ -10,7 +10,7 @@ h1, h2, h3, h4, p {
 	 margin-bottom: 1em; 
 }
 h1, h2 {
-	font-weight: 200;
+	font-weight: 700;
 }
 
 #wrapper {
@@ -32,7 +32,7 @@ h1, h2 {
 	background: green;
 }
 
-@media (min-width: 699px) {
+@media (max-width: 699px) {
 	#wrapper {
 		margin: 0em auto;
 	}

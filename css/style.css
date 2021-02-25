@@ -19,20 +19,34 @@ h1, h2 {
 }
 
 #main {
-	background: pink;
+	background: #333;
 	margin: 2em;
 	padding: 2em;
 }
 
 #sidebar {
-	background: green;
+	background: black;
 }
 
+#logo {
+	padding: 3em 0
+}
+
+#logo h1 {
+    margin: 0;
+}
+#logo img, .item img {
+	width: 100%;
+	height: auto;
+}
+.item img {
+	margin-bottom: 2em;
+}
 #content {
-	background: green;
+	/*background: black;*/
 }
 
-@media (max-width: 699px) {
+@media (min-width: 699px) {
 	#wrapper {
 		margin: 0em auto;
 	}
@@ -40,7 +54,14 @@ h1, h2 {
 		margin: 1em;
 		padding: 0em;
 	}
+	#logo {
+		text-align: center;
+		padding: 2em 0;
+	}
+	#nav ul {
+		display:flex;
+		justify-content: space-between;
+	}
 }
 
 
-/*stylesheet*/

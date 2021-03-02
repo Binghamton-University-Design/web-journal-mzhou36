@@ -3,7 +3,8 @@ body {
 	 background: black;
 	 color: white;
 	 font-family: 'Cormorant Garamond', monospace;
-	 font-weight: 200; 
+	 font-weight: 200;
+	 font-size: 15px; 
 }/*stylesheet*/
 h1, h2, h3, h4, p {
 	 margin-top: 0
@@ -13,9 +14,32 @@ h1, h2 {
 	font-weight: 700;
 }
 
+a {
+	display: block;
+	width: 230px;
+	height: 40px;
+	background-color: black;
+	font-size: 14px;
+	color: white;
+	text-decoration: none;
+	text-indent: 2em;
+}
+ a:hover {
+ 	background-color: #ff6700;
+ }
+.w {
+	width: 1000px;
+	margin: auto;
+}
+
+.header {
+	height: 42px;
+	margin: 30px auto;
+}
+
 #wrapper {
 	margin: 2em auto;
-	max-width: 1200px;
+	max-width: 1000px;
 }
 
 #main {
@@ -44,7 +68,10 @@ h1, h2 {
 }
 #content {
 	/*background: black;*/
+	margin: 2em;
+	padding: 2em;
 }
+
 
 @media (min-width: 699px) {
 	#wrapper {
@@ -63,5 +90,7 @@ h1, h2 {
 		justify-content: space-between;
 	}
 }
+
+
 
 

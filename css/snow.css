@@ -7,9 +7,15 @@
 body {
   /* Codeplayer says you can use any background here */
   background-color: black;
+
+
 }
 
 canvas {
   display: block;
   background: url(../Photo/scarf.png);
+  background-size: cover;
+  position: absolute;
 }
+
+

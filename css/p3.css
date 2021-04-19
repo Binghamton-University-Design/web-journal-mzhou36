@@ -184,3 +184,20 @@
 	transition-delay: 0s, 0.5s, 0.5s;
 
 }
+
+a {
+  display: block;
+  width: 90px;
+  height: 30px;
+  background-color: black;
+  font-size: 15px;
+  color: white;
+  text-decoration: none;
+  text-indent: 2em;
+  border-radius: 15px;
+}
+
+a:hover {
+  background-color: #1E1E1E;
+  transition: all .3s ease-in-out
+}
